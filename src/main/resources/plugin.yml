@@ -1,0 +1,16 @@
+name: simplecloud-permission-migration
+author: EinsLuca
+version: 1.0.0
+main: app.simplecloud.migration.permission.MigrationPlugin
+api-version: 1.13
+description: Migrate cloud permissions to LuckPerms
+
+commands:
+  migrate:
+    description: Migrate cloud permissions to LuckPerms
+    usage: /<migrate>
+
+depend:
+  - SimpleCloud-Plugin
+  - SimpleCloud-Permission
+  - LuckPerms

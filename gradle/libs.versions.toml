@@ -1,0 +1,25 @@
+[versions]
+kotlin = "2.0.20"
+shadow = "8.3.3"
+kapt = "2.0.20"
+simplecloud-v2 = "2.8.1"
+spigot = "1.21-R0.1-SNAPSHOT"
+luckperms = "5.4"
+mongodb = "4.9.0"
+
+
+
+[libraries]
+kotlin-jvm = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+simplecloud-api = { module = "eu.thesimplecloud.simplecloud:simplecloud-api", version.ref = "simplecloud-v2" }
+simplecloud-plugin = { module = "eu.thesimplecloud.simplecloud:simplecloud-plugin", version.ref = "simplecloud-v2" }
+simplecloud-module-permission = { module = "eu.thesimplecloud.simplecloud:simplecloud-module-permission", version.ref = "simplecloud-v2" }
+spigot = { module = "org.spigotmc:spigot-api", version.ref = "spigot" }
+luckperms = { module = "net.luckperms:api", version.ref = "luckperms" }
+mongodb = { module = "org.mongodb:mongodb-driver-sync", version.ref = "mongodb" }
+
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kapt" }
