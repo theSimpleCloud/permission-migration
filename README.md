@@ -43,15 +43,6 @@ This tool allows for seamless migration of permission data from the SimpleCloud 
 
 ---
 
-## FAQ
-
-**Can I perform the migration on multiple servers simultaneously?**  
-No, the migration should only be performed on one server. Synchronize the data with the LuckPerms database afterward if you have a multi-server setup.
-
-**What if an error occurs during the migration?**  
-The tool will provide detailed error messages. Ensure that the SimpleCloud data is accessible and LuckPerms is correctly configured.
-
----
 
 ## Contributing
 
